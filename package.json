@@ -1,0 +1,26 @@
+{
+  "name": "testsite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "testsite",
+  "author": "declan",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-mdx": "^5.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-remark": "^6.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
