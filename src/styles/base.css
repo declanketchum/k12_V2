@@ -1,0 +1,19 @@
+/* GLOBAL CSS FILES. DO NOT ADD TO THIS UNLESS IT'S MEANT TO GO ON EVERY PAGE */
+/* @font-face {
+    font-family: DIN-black;
+    src: url("DIN\ Black\ Regular.otf") format("opentype");
+} */
+
+@font-face {
+    font-family: DIN;
+    src: url("DIN.ttf") format("opentype")
+}
+
+body {
+    margin: 0 0 0 0 !important;
+    padding: 0;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: DIN;
+    font-size: 19px;
+    line-height: 2em;
+}

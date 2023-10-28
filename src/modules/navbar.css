@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #000;
+    font-family: DIN;
+    padding-left: 15%;
+    padding-right: 13%;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  .navLink {
+    color: #fff;
+  }
+  
+  .navLink.active {
+    color: #009ADE;
+  }
+
+  
