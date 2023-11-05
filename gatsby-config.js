@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `testsite`,
+    title: `K-12 Workshops`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-mdx", {
@@ -22,5 +22,9 @@ module.exports = {
     },
     __key: "content"
   },
-  'gatsby-transformer-remark',]
+  'gatsby-transformer-remark',
+    
+  "gatsby-plugin-image",
+  "gatsby-plugin-sharp",
+ ]
 };
