@@ -1,6 +1,5 @@
 ---
 slug: "/workshop-1"
-date: 'lkadjf'
 title: "To Float a Boat"
 images: ['../img/floatboat/floatboat1.jpg']
 tags: ['Elementary', 'Science', 'Engineering', '1 hour', 'E4E']
