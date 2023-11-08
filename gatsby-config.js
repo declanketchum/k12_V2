@@ -6,7 +6,11 @@ module.exports = {
     title: `K-12 Workshops`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-mdx", {
+  plugins: ["gatsby-plugin-mdx",
+    "gatsby-transformer-remark",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
@@ -22,9 +26,13 @@ module.exports = {
     },
     __key: "content"
   },
-  'gatsby-transformer-remark',
-    
-  "gatsby-plugin-image",
-  "gatsby-plugin-sharp",
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "images",
+      "path": "./src/images/"
+    },
+    __key: "images"
+  },
  ]
 };
