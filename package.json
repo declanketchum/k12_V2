@@ -1,9 +1,8 @@
 {
-  "name": "testsite",
+  "name": "my-gatsby-site",
   "version": "1.0.0",
   "private": true,
-  "description": "testsite",
-  "author": "declan",
+  "description": "my-gatsby-site",
   "keywords": [
     "gatsby"
   ],
@@ -15,13 +14,14 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.3.0",
-    "gatsby": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.3",
-    "gatsby-plugin-mdx": "^5.12.0",
-    "gatsby-plugin-sharp": "^5.12.3",
-    "gatsby-source-filesystem": "^5.12.1",
-    "gatsby-transformer-remark": "^6.12.0",
+    "@mdx-js/react": "^3.0.0",
+    "gatsby": "^5.13.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-mdx": "^5.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-plugin-sitemap": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-transformer-sharp": "^5.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
